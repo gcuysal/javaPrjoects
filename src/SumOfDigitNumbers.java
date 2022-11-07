@@ -13,6 +13,7 @@ public class SumOfDigitNumbers {
             digitsValue = tempNumber % 10;
             result += digitsValue;
             tempNumber /= 10;
+
         }
         System.out.println("Sum of digits of the number " + number + ": " + result);
     }
